@@ -19,7 +19,7 @@ header{
     padding: 35px ;
 }
 nav{
-    list-style:disc;
+    list-style:none;
     background-color: maroon;
     padding: 10px;
 }
@@ -34,7 +34,7 @@ nav ul{
 }
 
 nav li{
-    width: 45%;
+    
     margin: 10px 15px;
     padding: 5px;
     border:2px solid rgba(255, 255, 255, 0.703); 
@@ -51,12 +51,13 @@ nav a {
 nav a:hover{
     color: rgba(240, 187, 182, 0.768);
 }
+/*
 .test{
     color: maroon;
     text-align:center ;
     font-size: 40px;
 }
-
+*/
 table{
     width: 80%; 
     margin: 30px auto;
