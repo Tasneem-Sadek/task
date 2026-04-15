@@ -28,13 +28,12 @@ nav ul{
     display: flex;
     margin: 0;
     padding: 0;
-    flex-wrap: wrap ;
+    flex-wrap: nowrap ;
     justify-content:center;
     text-align: center;
 }
 
 nav li{
-    
     margin: 10px 15px;
     padding: 5px;
     border:2px solid rgba(255, 255, 255, 0.703); 
