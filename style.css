@@ -138,7 +138,6 @@ footer{
     nav ul {
         flex-direction: column;
         align-items:center;
-        flex-wrap: wrap ;
     }
     
     form {
@@ -156,6 +155,9 @@ footer{
     th, td {
         padding: 5px;
         word-wrap: break-word;
+    }
+    nav ul{
+        flex-wrap: wrap;
     }
 }
 }
