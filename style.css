@@ -34,6 +34,7 @@ nav ul{
 }
 
 nav li{
+    width: 45%;
     margin: 10px 15px;
     padding: 5px;
     border:2px solid rgba(255, 255, 255, 0.703); 
