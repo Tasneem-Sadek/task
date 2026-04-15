@@ -1,0 +1,150 @@
+body{
+    margin: 0 ;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: maroon;
+}
+main{
+    flex: 1;
+    text-align:center;
+    font-size: 20px;
+}
+header{
+    text-align: center;
+    background-color: ;
+    color: maroon ;
+    padding: 35px ;
+}
+nav{
+    list-style:disc;
+    background-color: maroon;
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap ;
+    justify-content:center;
+    text-align: center;
+}
+
+nav li{
+    margin: 10px 15px;
+    padding: 5px;
+    border:2px solid rgba(255, 255, 255, 0.703); 
+    border-radius: 10px;
+}
+
+nav a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+nav a:hover{
+    color: rgba(240, 187, 182, 0.768);
+}
+.test{
+    color: maroon;
+    text-align:center ;
+    font-size: 40px;
+}
+
+table{
+    width: 90%; 
+    margin: 30px auto;
+    overflow: auto;
+    color :white;
+    border-collapse: collapse;
+    text-align: center;
+    text-wrap-mode: wrap;
+    background-color:maroon;
+    border-spacing: 6px ;
+    padding: 10px;
+    
+}
+th{
+    background: rgba(195, 48, 35, 0.397);
+    height: 70px;
+    width: 70px;
+    border: 5px solid maroon;
+    border-radius: 100px;
+}
+td{
+    background: rgba(195, 48, 35, 0.397);
+    height: 50px;
+    width: 50px;
+    border: 5px solid maroon;
+    padding: 1%;
+    border-radius: 15%;
+    
+}
+form{
+    width: 60%;
+    color: maroon;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px auto;
+    overflow:auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+label{
+    margin:10px 2px;
+}
+input , textarea ,button {
+    padding: 10px;
+    margin: 3px 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+input:focus{             /*??*/
+    box-shadow: 10px;
+}
+
+input[type="submit"] , button {
+    margin-top: 50px;
+    padding: 10px;
+    
+    transition: 0.2s;
+    color: maroon;
+}
+
+button:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: maroon;
+    color: white;
+    padding: 10px; 
+}
+@media (max-width: 800px) {
+    nav ul {
+        flex-direction: column;
+        align-items:center;
+        
+    }
+    
+    form {
+        width: 80%;
+    }
+    table{
+        width: 90%;
+    }
+}
