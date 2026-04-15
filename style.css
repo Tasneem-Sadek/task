@@ -91,9 +91,9 @@ form{
     background-color: lightgray;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
+    text-align: left;
     margin: 40px auto;
-    overflow:auto;
     padding: 10px;
     border-radius: 20px;
 }
@@ -113,7 +113,6 @@ input:focus{             /*??*/
 input[type="submit"] , button {
     margin-top: 50px;
     padding: 10px;
-    
     transition: 0.2s;
     color: maroon;
 }
@@ -143,6 +142,7 @@ footer{
     
     form {
         width: 80%;
+        text-align: left;
     }
     table{
         width: 70%;
